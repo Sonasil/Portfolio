@@ -68,7 +68,7 @@
                     
                     <div>
                         <h2 class="about__subtitle">I'am Asil</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <p class="about__text">I am a student of software engineering and I am studying algorithms, programming languages and software development processes. I am interested in technology and I am trying to improve myself in this field. I also have experience in computer technical service and web programming.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -76,13 +76,13 @@
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
-
+            
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Gönder" class="contact__button button">
+                    <form action="mailto:Turkmenasil@hotmail.com" method="POST" enctype="text/plain" class="contact__form">
+                        <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                        <textarea name="message" id="message" rows="5" class="contact__input" placeholder="Your Message" required></textarea>
+                        <input type="submit" value="Gönder" class="contact__button button">
                     </form>
                 </div>
             </section>
